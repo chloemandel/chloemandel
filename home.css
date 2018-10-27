@@ -1,0 +1,597 @@
+h1 {
+    text-align: center;
+    font-family: "Playfair Display";
+}
+
+
+.navbar-nav {
+    font-family: "Playfair Display";
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: "Playfair Display";
+    font-size: 24px;
+}
+
+.nav-link {
+    font-family: "Merriweather", serif;
+    font-size: 22px;
+}
+
+.monogram {
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    position: relative;
+    top: 3%;
+}
+
+
+.logo {
+    width: 70%;
+    height: 60px;
+}
+
+#picrow1 {
+    position: absolute;
+    top: 70%;
+    bottom: 5%;
+    left: 15%;
+}
+
+#picrow2 {
+    position: absolute;
+    top: 100%;
+    bottom: 5%;
+    left: 15%;
+}
+
+#picrow3 {
+    position: absolute;
+    top: 130%;
+    bottom: 5%;
+    left: 15%;
+}
+
+#picrow4 {
+    position: absolute;
+    top: 160%;
+    bottom: 5%;
+    left: 15%;
+}
+
+.border1 {
+    border: 5px;
+    border-style: solid;
+    border-color: pink;
+    padding: 1em;
+    /* This will center the border. */
+    top: 56%;
+    left: 12%;
+    position: absolute;
+    height: 432px;
+    width: 40%;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    /*color: grey;*/
+    line-height: 1.6;
+    text-align: left;
+}
+
+#aboutpic {
+    position: absolute;
+    right: 15%;
+    top: 59%;
+    height: 436px;
+}
+
+.typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid pink;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em;
+    /* Adjust as needed */
+    animation: typing 5s steps(40, end),
+    blink-caret .5s step-end;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: pink;
+    }
+}
+
+.wow {
+    font-size: 70px;
+    font-family: "Merriweather";
+}
+
+#travel {
+    width: 100%;
+    height: 700px;
+    /*right: 20%;*/
+    position: relative;
+}
+
+#centered {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.travheading {
+    font-size: 70px;
+    font-style: italic;
+}
+
+.carousel {
+    width: 100%;
+    height: 480px;
+}
+
+#travel1stsent {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Open Sans", sans-serif;
+    color: #FF1493;
+}
+
+.travel1stpara {
+    font-size: 17px;
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+.calabar {
+    text-align: center;
+    font-size: 45px;
+    color: #FF4500;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Merriweather";
+}
+
+#nigeriarow1 {
+    position: absolute;
+    top: 185%;
+    bottom: 5%;
+    left: 22%;
+}
+
+#nigeriarow2 {
+    position: absolute;
+    top: 240%;
+    bottom: 5%;
+    left: 22%;
+}
+
+.captions {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nigeriapara {
+    font-size: 17px;
+    position: absolute;
+    top: 305%;
+    left: 14%;
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+
+/*#codeheading {*/
+
+/*    position: absolute;*/
+
+/*    top: 39%;*/
+
+/*    left: 50%;*/
+
+/*    transform: translate(-50%, -50%);*/
+
+/*    color: white;*/
+
+/*}*/
+
+#code {
+    left: -5%;
+    width: 1500px;
+    height: 500px;
+}
+
+
+
+.codepara {
+    font-size: 20px;
+    width: 960px;
+    margin: auto;
+}
+
+.test {
+    position: absolute;
+    top: 150%;
+    color: white;
+}
+
+.actheadings {
+    font-size: 41px;
+    font-family: "Merriweather";
+    font-weight: bolder;
+    position: absolute;
+    left: 6%;
+    color: #FF1493;
+}
+
+.actsubheadings {
+    font-size: 24px;
+    font-family: "Merriweather";
+    position: absolute;
+    left: 6%;
+    color: grey;
+}
+
+.title {
+    font-size: 22px;
+    font-family: "Open Sans";
+    position: absolute;
+    left: 10%;
+    font-weight: bolder;
+    text-decoration: underline
+}
+
+.description {
+    font-size: 18px;
+    font-family: "Open Sans";
+    position: absolute;
+    left: 12%;
+    margin-right: 190px;
+    line-height: 1.6;
+}
+
+.kwkborder {
+    border: 5px;
+    border-style: solid;
+    border-color: pink;
+    padding: 1em;
+    /* This will center the border. */
+    top: 190%;
+    left: 10%;
+    position: absolute;
+    height: 520px;
+    width: 40%;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    /*color: grey;*/
+    line-height: 1.6;
+    text-align: left;
+}
+
+#kwkpic {
+    position: absolute;
+    right: 12%;
+    top: 193%;
+    height: 518px;
+}
+
+.codeheading {
+    position: absolute;
+    top: 170%;
+    left: 14%;
+    width: 960px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Merriweather";
+}
+
+.codeheading2 {
+    position: absolute;
+    top: 295%;
+    left: 14%;
+    width: 960px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Merriweather";
+}
+
+
+.kwksubheading1 {
+    font-size: 30px;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 320%;
+    left: 10%;
+}
+
+.kwkdescription1 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    position: absolute;
+    top: 330%;
+    left: 12%;
+    margin-right: 190px;
+    line-height: 1.6;
+}
+
+.kwksubheading2 {
+    font-size: 30px;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 350%;
+    left: 10%;
+}
+
+.kwkdescription2 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    position: absolute;
+    top: 360%;
+    left: 12%;
+    margin-right: 190px;
+    line-height: 1.6;
+}
+
+.kwksubheading3 {
+    font-size: 30px;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 380%;
+    left: 10%;
+}
+
+.kwkdescription3 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    position: absolute;
+    top: 390%;
+    left: 12%;
+    margin-right: 190px;
+    line-height: 1.6;
+}
+
+.kwksubheading4 {
+    font-size: 30px;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 410%;
+    left: 10%;
+}
+
+.kwkdescription4 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    position: absolute;
+    top: 420%;
+    left: 12%;
+    margin-right: 190px;
+    line-height: 1.6;
+}
+
+.kwksubheading5 {
+    font-size: 30px;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 440%;
+    left: 10%;
+}
+
+.kwkdescription5 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    position: absolute;
+    top: 450%;
+    left: 12%;
+    margin-right: 190px;
+    line-height: 1.6;
+}
+
+
+.noborder {
+    top: 56%;
+    left: 12%;
+    position: absolute;
+    height: 432px;
+    width: 40%;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    /*color: grey;*/
+    line-height: 1.8;
+    text-align: left;
+}
+
+.noborder2 {
+    top: 190%;
+    left: 10%;
+    position: absolute;
+    height: 520px;
+    width: 40%;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    /*color: grey;*/
+    line-height: 1.7;
+    text-align: left;
+}
+
+.ireland {
+    font-size: 45px;
+    color: #699E32;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 360%;
+    bottom: 5%;
+    left: 45%;
+}
+
+
+#irelandrow1 {
+    position: absolute;
+    top: 390%;
+    bottom: 5%;
+    left: 22%;
+}
+
+#irelandrow2 {
+    position: absolute;
+    top: 460%;
+    bottom: 5%;
+    left: 22%;
+}
+
+
+.irelandpara {
+    font-size: 17px;
+    position: absolute;
+    top: 535%;
+    left: 14%;
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+
+.spain {
+    font-size: 45px;
+    color: #FF530D;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 585%;
+    bottom: 5%;
+    left: 45%;
+}
+
+#spainrow1 {
+    position: absolute;
+    top: 615%;
+    bottom: 5%;
+    left: 22%;
+}
+
+#spainrow2 {
+    position: absolute;
+    top: 685%;
+    bottom: 5%;
+    left: 22%;
+}
+
+.spainpara {
+    font-size: 17px;
+    position: absolute;
+    top: 760%;
+    left: 14%;
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+
+.italy {
+    font-size: 45px;
+    color: #791AFF;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 815%;
+    bottom: 5%;
+    left: 45%;
+}
+
+
+#italyrow1 {
+    position: absolute;
+    top: 845%;
+    bottom: 5%;
+    left: 22%;
+}
+
+#italyrow2 {
+    position: absolute;
+    top: 915%;
+    bottom: 5%;
+    left: 22%;
+}
+
+.italypara {
+    font-size: 17px;
+    position: absolute;
+    top: 990%;
+    left: 14%;
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+.belgium {
+    font-size: 45px;
+    color: #800000;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Merriweather";
+    position: absolute;
+    top: 1040%;
+    bottom: 5%;
+    left: 45%;
+}
+
+
+#belgiumrow1 {
+    position: absolute;
+    top: 1070%;
+    bottom: 5%;
+    left: 22%;
+}
+
+#belgiumrow2 {
+    position: absolute;
+    top: 1140%;
+    bottom: 5%;
+    left: 22%;
+}
+
+.belgiumpara {
+    font-size: 17px;
+    position: absolute;
+    top: 990%;
+    left: 14%;
+    width: 960px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+
